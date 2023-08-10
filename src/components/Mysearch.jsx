@@ -29,7 +29,7 @@ const Search = ({ onSearchChange }) => {
     setSearch(searchData);
     onSearchChange(searchData);
   };
-
+  
   return (
     <AsyncPaginate
       placeholder="ENTER CITY"
